@@ -5,7 +5,9 @@ const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
       <Header />
-      <main className="w-full min-h-screen container mx-auto">{children}</main>
+      <main className="w-full min-h-screen container mx-auto py-4">
+        {children}
+      </main>
       <footer className="h-20 w-full flex items-center justify-center border-t">
         <p>Made with 💗 by Deepanshu</p>
       </footer>
